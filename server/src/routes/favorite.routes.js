@@ -4,7 +4,7 @@ import {
     addFavorite,
     deleteFavorite,
     // deleteFavoriteByImdbID
-} from '../controllers/favorite.controller.js';
+} from '../controllers/favorite.controllers.js';
 import { authMiddleware } from '../middlewares/auth.middleware.js';
 
 const router = express.Router();

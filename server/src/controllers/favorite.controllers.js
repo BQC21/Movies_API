@@ -1,4 +1,4 @@
-import prisma from '../lib/prisma.js';
+import prisma from '../db_client/prisma.js';
 
 // Get all favorites for the authenticated user
 export const getFavorites = async (req, res) => {
