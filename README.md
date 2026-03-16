@@ -4,9 +4,7 @@ A full-stack movie management application built with PostgreSQL, Express.js, Rea
 ## 🚀 Features
 
 - **User Authentication**: Register and login with JWT-based authentication
-- **Movie Search**: Search for movies using the OMDB API
 - **Favorites Management**: Add movies to favorites and delete them
-- **Persistent Storage**: User data and favorites stored in PostgreSQL database
 - **Responsive UI**: Clean and user-friendly interface
 
 ## 🛠️ Tech Stack
@@ -24,3 +22,6 @@ A full-stack movie management application built with PostgreSQL, Express.js, Rea
 - **React Router**: Client-side routing
 - **Axios**: HTTP client for API requests
 
+### Databases
+- **OMDb API**: gather info of movies
+- **Neon**: serverless databases manager
