@@ -1,11 +1,10 @@
 # Movies_API
-A full-stack movie management application built with PostgreSQL, Express.js, React, and Node.js (PERN stack). Users can search for movies using the OMDB API, save favorites to a PostgreSQL database, and manage their movie collection.
+A server to manage movies built with PostgreSQL, Express.js, and Node.js. Users can save favorites movies to a PostgreSQL database located at NEON.
 
 ## 🚀 Features
 
 - **User Authentication**: Register and login with JWT-based authentication
 - **Favorites Management**: Add movies to favorites and delete them
-- **Responsive UI**: Clean and user-friendly interface
 
 ## 🛠️ Tech Stack
 
@@ -16,12 +15,5 @@ A full-stack movie management application built with PostgreSQL, Express.js, Rea
 - **JWT**: Authentication tokens
 - **bcrypt**: Password hashing
 
-### Frontend
-- **React 18**: UI library
-- **Vite**: Build tool and dev server
-- **React Router**: Client-side routing
-- **Axios**: HTTP client for API requests
-
 ### Databases
-- **OMDb API**: gather info of movies
 - **Neon**: serverless databases manager
