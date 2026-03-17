@@ -29,17 +29,13 @@ model User {
 model Favorite {
   id         Int      @id @default(autoincrement())
   user_id    Int
-  imdb_id    String   @db.VarChar(255)
   title      String   @db.VarChar(255)
   year       String?  @db.VarChar(255)   
   type       String?  @db.VarChar(255)
-  poster     String?  @db.VarChar(255)
   created_at DateTime @default(now()) @db.Timestamptz(6)
   updated_at DateTime @default(now()) @db.Timestamptz(6)
 
   user       User     @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: Cascade)
 
   @@map("favorite")
-  @@index([user_id], map: "idx_fav_user")
-  @@index([imdb_id], map: "idx_fav_imdb")
 }
